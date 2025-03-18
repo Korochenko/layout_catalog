@@ -1,6 +1,6 @@
 .item {
   width: 100%;
-  max-width: 200px;
+  width: 200px;
   height: 100%;
   border: 1px solid $color-border;
   border-radius: $border-radius;
@@ -91,4 +91,8 @@
 .item:hover {
   transform: scale(1.2);
   z-index: 10;
+}
+
+.item:hover .item__name {
+  color: #34568b;
 }
